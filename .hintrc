@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/aria": [
+      "default",
+      {
+        "aria-required-children": "off",
+        "aria-allowed-attr": "off"
+      }
+    ],
+    "no-inline-styles": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "width: fit-content"
+        ]
+      }
+    ],
+    "typescript-config/strict": "off"
+  }
+}

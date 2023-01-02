@@ -1,0 +1,31 @@
+<!-- card -->
+<div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="20px">
+    <mat-card>
+        <!-- child -card component -->
+        <app-widget-card bg="blue" total="1200" icon="dashboard" desc="Dashboard"></app-widget-card>
+    </mat-card>
+    <mat-card>
+        <app-widget-card bg="orange" total="3" icon="home" desc="Institution"></app-widget-card>
+    </mat-card>
+    <mat-card>
+        <app-widget-card bg="green" total="2300" icon="person" desc="Student"></app-widget-card>
+    </mat-card>
+    <mat-card>
+        <app-widget-card bg="red" total="55" icon="group" desc="Employees"></app-widget-card>
+    </mat-card>
+</div>
+
+<!-- chart -->
+<app-widget-chart></app-widget-chart>
+
+
+<div fxLayout="row" fxLayoutAlign="space-evenly" fxLayoutGap="20px">
+    <div fxFlex="60">
+         <!-- table -->
+        <app-widget-table></app-widget-table>
+    </div>
+    <div fxFlex="40">
+        <!-- pie chart -->
+        <app-widget-pie></app-widget-pie>
+    </div>
+</div>
